@@ -1,0 +1,37 @@
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: round;    
+    background-image: url("https://img.freepik.com/free-photo/paper-bags-different-colors-blue-background-top-view_169016-41285.jpg?w=900&t=st=1710200638~exp=1710201238~hmac=d442b3281cfbb277abde2c00029fece222d8651e2709ae8154d8683f46e2a440");
+    background-size: cover;
+    height:100vh;
+}
+.main-heading{
+    color:#ffd259;
+    font-family: 'cursive';
+    text-align: center;
+    font-size: 50px;
+    width: 50%;
+    margin-top: 50px;
+}
+.description{
+    font-family: sans-serif;
+    width: 80%;
+    font-size: 25px;
+    text-align: center;
+}
+button{
+    background-color: #9fe225;
+    font-size: 20px;
+    font-family: sans-serif;
+    height:60px;
+    width:200px;
+    border:none;
+    border-radius: 5px;
+    align-self:center;
+      
+}
+.button{
+    text-decoration: none;
+}
