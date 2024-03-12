@@ -1,9 +1,9 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react'; // Import useParams from react-router-dom
+import { useParams } from 'react';
 import "./style.css";
 
-const ProductDetails = () => { // Remove props from function parameters
+const ProductDetails = () => {
     const [product, setProduct] = useState(null);
     const { productId } = useParams();
   
@@ -14,14 +14,14 @@ const ProductDetails = () => { // Remove props from function parameters
     }, [productId]);
   
     return (
-      <div className="product-details">
+      <div className="product-details-container">
         <h1>Your choice</h1>
         {product ? (
-          <div className="productdetails">
+          <div className="product-details">
             <img  src={product.image} alt={product.title} />
-            <div className="eachCard">
-              <h2>{product.title}</h2>
-              <p className="desc">{product.description}</p>
+            <div className="product-card">
+              <h2 className='product-title'>{product.title}</h2>
+              <p className="product-desc">{product.description}</p>
               <p className="price">Price: ${product.price}</p>
             </div>
           </div>

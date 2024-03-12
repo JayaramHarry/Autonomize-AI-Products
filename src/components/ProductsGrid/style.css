@@ -1,4 +1,4 @@
-.productSection{
+.product-section{
     display:flex;
     flex-direction: column;
     background-color: #48acb4;
@@ -6,7 +6,7 @@
     
 }
 
-.selectSection{
+.select-options{
     display: flex;
     align-items: center;
     justify-content: space-between;

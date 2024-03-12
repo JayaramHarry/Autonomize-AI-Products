@@ -22,8 +22,8 @@ const ProductsGrid = () => {
     };
   
     return (
-      <div className="productSection">
-        <div className='selectSection'>
+      <div className="product-section">
+        <div className='select-options'>
           <h1 className='products-page-heading'>Products</h1>
           <select onChange={handleChange}>
             <option value="">All</option>
